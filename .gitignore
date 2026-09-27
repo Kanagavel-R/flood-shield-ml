@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/
+
+# Temporary / debug
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Large model files (exceeds GitHub 100 MB limit)
+# The app uses final_model.pkl + scaler.pkl only
+models/RandomForest.pkl
+models/DecisionTree.pkl
+
+# Runtime data
+data/prediction_history.json
